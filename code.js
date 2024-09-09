@@ -2,8 +2,8 @@ function binarySearch(list, element) {
     let start = 0;
     let end = list.length - 1; 
     while (start <= end) {
-        var mid = (start + end) / 2;
-        if (mid == element) {
+        var arr(mid) = (start + end) / 2;
+        if (arr(mid) === element) {
             return mid;
         }
         else if (mid < element) {
