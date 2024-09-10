@@ -9,4 +9,4 @@ automatically every time you push to Github; if they pass you are done.
 
 
 “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
-Used www.geeksforgeeks.com for an pseudocode outline then wrote the code myself
+Used www.geeksforgeeks.com for an pseudocode outline then wrote the code myself. Used ChatGpt to find a bug I couldn't fiqure out.
