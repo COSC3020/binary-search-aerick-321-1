@@ -1,10 +1,12 @@
 function binarySearch(list, element) {
     let start = 0;
     let end = list.length - 1; 
+    let result = -1;
     while (start <= end) {
         var mid = Math.floor((start + end) / 2);
         if (list[mid] === element) {
-            return mid;
+            result = mid;
+            end = mid-1;
         }
         else if (list[mid] < element) {
             start = mid + 1;
@@ -13,5 +15,5 @@ function binarySearch(list, element) {
             end = mid - 1;
         }
     }
-    return -1;
+    return result;
 }
